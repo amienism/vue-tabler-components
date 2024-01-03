@@ -12,6 +12,11 @@ const router = createRouter({
       path: '/alerts',
       name: 'alerts',
       component: () => import('../pages/alerts.vue')
+    },
+    {
+      path: '/buttons',
+      name: 'buttons',
+      component: () => import('../pages/buttons.vue')
     }
   ]
 })
